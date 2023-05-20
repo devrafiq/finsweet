@@ -1,0 +1,136 @@
+html,body{
+    scroll-behavior: unset !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8px;
+}
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* nav start */
+/* ====================nav start================ */
+
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: all linear 0.3s;
+    background-color: #1C1E53;
+}
+.navbar.fixed_nav{
+    position: fixed;
+    padding: 10px 0;
+    background-color: #1C1E53;
+    transition: all linear 0.3s;
+    z-index: 999;
+}
+.nav-item .nav-link{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.nav-item .nav-link:hover{
+    color: #fff;
+}
+.nav_div{
+    margin-right: 50px;
+}
+.container .banner_btn button{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+
+.banner_btn{
+    width: 233px;
+}
+.banner_btn button{
+    padding: 16px 56px;
+    border: 2px solid #F4F6FC33;
+    border-radius: 41px;
+    background-color:#1C1E53;
+    transition: all linear 0.3s;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+}
+.banner_btn:hover button{
+    padding: 16px 56px;
+    background-color: #FCD980;
+    border-radius: 41px;
+    background-color:#FCD980;
+    color: #1B1C2B;
+   
+}
+/* ====================nav end================ */
+
+
+/* ====================problem start================ */
+#problem{
+    margin: 128px 0;
+}
+.problem_text span{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+}
+.problem_text h2{
+    width: 595px;
+    font-size: 54px;
+    line-height: 74px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+    margin-top: 8px;
+    margin-bottom: 31px;
+}
+.problem_text p{
+    width: 440px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #282938;
+}
+/* ====================problem end================ */
+
+
+/* ====================nav start================ */
+/* ====================nav end================ */
+
+
+/* ====================nav start================ */
+/* ====================nav end================ */
+
+
+/* ====================nav start================ */
+/* ====================nav end================ */
+
+
+/* ====================nav start================ */
+/* ====================nav end================ */
+
+
+/* ====================nav start================ */
+/* ====================nav end================ */

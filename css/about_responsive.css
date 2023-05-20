@@ -1,0 +1,32 @@
+@media(max-width:575.98px){
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar button i{
+	color: #fff;
+}
+.problem_text{
+    /* display: none; */
+}
+.problem_img{
+    display: none;
+}
+.problem_text span {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.problem_text h2 {
+	/* width: 595px; */
+	font-size: 30px;
+	line-height: 45px;
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+.problem_text p {
+	/* width: 440px; */
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+}
+}

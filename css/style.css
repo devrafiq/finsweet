@@ -28,7 +28,7 @@ font-family: 'Poppins', sans-serif; */
 }
 .navbar.fixed_nav{
     position: fixed;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     background-color: #1C1E53;
     transition: all linear 0.3s;
     z-index: 999;
@@ -749,21 +749,21 @@ font-family: 'Poppins', sans-serif; */
 /* nav start */
 /* ====================nav start================ */
 
-.navbar{
+/* .navbar{
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     transition: all linear 0.3s;
     background-color: #1C1E53;
-}
-.navbar.fixed_nav{
+} */
+/* .navbar.fixed_nav{
     position: fixed;
     padding: 10px 0;
     background-color: #1C1E53;
     transition: all linear 0.3s;
     z-index: 999;
-}
+} */
 .nav-item .nav-link{
     color: #fff;
     font-weight: 500;

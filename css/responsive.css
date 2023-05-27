@@ -36,9 +36,22 @@
         padding-top: 100px;
         padding-bottom: 48px;
     }
-    .banner_img .banner_img_item{
-        width: 300px;
-        margin-top: 30px;
+    .banner_img .banner_img_item {
+        display: none;
+    }
+    .banner_btn_wrapper .banner_btn {
+        width: 160px;
+    }
+    .banner_btn_wrapper .banner_btn button {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .banner_btn_wrapper .banner_btn button{
+        padding: 20px 30px;
+    }
+    .banner_btn2 button {
+        font-size: 14px;
+        font-weight: 400;
     }
     /* ==============banner end======== */
 
@@ -70,10 +83,19 @@
     #work {
         margin: 60px 0;
     }
+    .work_heading {
+        text-align: center;
+    }
+    .work_card_contentt {
+        text-align: center;
+    }
     /* ==============work end======== */
 
 
     /* ==============project start======== */
+    #project {
+        margin: 0px 0;
+    }
     .project_heading h3 {
         font-size: 30px;
         line-height: 45px;
@@ -122,19 +144,274 @@
         font-weight: 400;
         line-height: 21px;
     }
-  
+    .project_content_two_item {
+        overflow: hidden;
+    }
+    .project_content_two_item img{
+        object-fit: cover;
+        width: 300px;
+    }
+    .project_overlay_two h4 {
+        margin-top: 60px;
+    }
+    
     /* ==============project end======== */
 
     
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
+    /* ==============product start======== */
+    #product {
+        margin: 50px 0;
+    }
+    .product_heading h2 {
+        width: 280px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+    #product .product_item .product_content {
+        width: 310px;
+        text-align: center;
+        padding: 50px 10px 0px 10px;
+    }
+    /* ==============product end======== */
+
+
+    /* ==============about start======== */
+    #about {
+        margin: 30px 0;
+    }
+    .about_item {
+        width: 300px;
+        text-align: center;
+    }
+    .about_item h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .about_item p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .about_content {
+        width: 300px;
+    }
+    .about_content p {
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    /* ==============about end======== */
+
+
+    /* ==============question start======== */
+    #question {
+        margin: 80px 0;
+    }
+    .question_item{
+        text-align: center;
+    }
+    .question_item h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .question_item span {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    .question_content .accordion-body p {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        width: 300px;
+        margin-left: -21px;
+        text-align: center;
+    }
+    .question_content{
+        margin-top: 30px;
+    }
+    .question_content button h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        text-align: center;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .faqitemNumber {
+        display: none;
+    }
+    .question_content .accordion-button{
+        padding: 1rem 1.25rem;
+    }
+    .question_content .accordion-body{
+        padding: 0rem 1.25rem;
+    }
+    
+    /* ==============question end======== */
+
+
+    /* ==============building start======== */
+    .building_content_overlay p {
+        width: 300px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .building_content_overlay h2 {
+        width: 300px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        margin-bottom: 8px;
+    }
+    .building_content_overlay {
+        width: 100%;
+        padding: 36px 0px 261px 5px;
+        text-align: center;
+    }
+    .building_content img{
+        width: 300px;
+    }
+    .building_form {
+        margin-left: 0px;
+    }
+    .building_form h2 {
+        font-size: 28px;
+        line-height: 43px;
+        padding: 36px 0px 0 0px;
+        text-align: center;
+    }
+    .building_form p {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        margin-top: 0px;
+        padding: 0px 15px 40px 15px;
+        text-align: center;
+    }
+    .building_form input {
+        width: 262px;
+        height: 58px;
+        border-radius: 8px;
+        margin: 0px 20px 16px 20px;
+    }
+    ::placeholder {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    .building_form button {
+        width: 262px;
+        height: 58px;
+        margin: 25px 0px 16px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .building_form a {
+        padding: 0 60px 0px 70px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    /* ==============building end======== */
+
+
+    /* ==============blog start======== */
+    #blog {
+        margin: 50px 0;
+    }
+    .blog_heading h2 {
+        font-size: 38px;
+        line-height: 57px;
+        margin-bottom: 21px;
+        text-align: center;
+    }
+    .card{
+        text-align: center;
+    }
+    #blog .card p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+    #blog .card .card-img-top {
+        margin-bottom: 0px;
+    }
+    #blog .card span{
+        margin-top: 0px;
+    }
+    #blog .card i {
+        margin-left: 10px;
+    }
+      /* ==============blog end======== */
+
+
+    /* ==============banner start======== */
+    #footer {
+        padding: 50px 0;
+    }
+    .footer_heading p {
+        width: 300px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        margin-top: 14px;
+        margin-bottom: 47px;
+    }
+    .footer_heading_inner_wrapper {
+        width: 300px;
+        padding: 18px 37px 16px 37px;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer_inner_item h4 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .footer_inner_item span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .footer_heading_second h2 {
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 6px;
+        margin-top: 30px;
+    }
+    .footer_heading_second p {
+        width: 300px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 21px;
+    }
+    .footer_heading{
+        text-align: center;
+    }
+      /* ==============banner end======== */
+
+
+    /* ==============foote_second start======== */
+    #foote_second {
+        margin: 16px 0;
+    }
+    .footer_second_content{
+        text-align: center;
+    }
+    .footer_second_item{
+        display: none;
+    }
+      /* ==============foote_second end======== */
+    /* ==============banner start======== */
+      /* ==============banner end======== */
+    /* ==============banner start======== */
+      /* ==============banner end======== */
+    /* ==============banner start======== */
+      /* ==============banner end======== */
 }
 /* @media(max-width:575.98px){
 
@@ -151,3 +428,76 @@
 /* @media(max-width:575.98px){
 
 } */
+
+
+
+
+/* ====================about page responsive================== */
+
+
+
+@media(max-width:575.98px){
+	
+    /* ==============nav start======== */
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar button i{
+        color: #fff;
+    }
+    /* ==============nav end======== */
+    /* ==============prblem start======== */
+    .problem_text{
+        /* display: none; */
+    }
+    .problem_img{
+        /* display: none; */
+    }
+    .problem_text span {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .problem_text h2 {
+        /* width: 595px; */
+        font-size: 30px;
+        line-height: 45px;
+        margin-top: 0px;
+        margin-bottom: 6px;
+    }
+    .problem_text p {
+        /* width: 440px; */
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .problem_img img{
+        width: 300px;
+    }
+    /* ==============problem end======== */
+    
+    
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    /* ==============banner end======== */
+    }
+    /* @media(max-width:575.98px){
+    
+    } */
+    /* @media(max-width:575.98px){
+    
+    } */
+    /* @media(max-width:575.98px){
+    
+    } */
+    /* @media(max-width:575.98px){
+    
+    } */
+    /* @media(max-width:575.98px){
+    
+    } */

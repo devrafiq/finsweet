@@ -3,8 +3,7 @@
     .nav_div {
         background: black;
         text-align: center;
-        margin-right: -12px;
-        margin-left: -12px;
+        margin-right: 0;
     }
     .navbar-toggler:focus {
         box-shadow: none;
@@ -18,6 +17,9 @@
     }
     /* ==============nav end======== */
     /* ==============banner strat======== */
+    .banner_heading{
+        width: 300px;
+    }
     .banner_heading h1 {
         font-size: 30px;
         line-height: 45px; 
@@ -57,6 +59,12 @@
 
 
     /* ==============work start======== */
+    .work_heading{
+        width: 300px;
+    }
+    .work_card_contentt{
+        width: 300px;
+    }
     .work_heading h2 {
         font-size: 34px;
         line-height: 51px;
@@ -412,6 +420,18 @@
         color: #282938;
         font-family: 'Poppins', sans-serif;
     }
+
+
+    .top_to_bottom i{
+        bottom: 0px;
+    }
+    .top_to_bottom {
+        background-color: #8c7910;
+        right: 10px;
+        bottom: 10px;
+        width: 45px;
+        height: 45px;
+    }
       /* ==============foote_second end======== */
     /* ==============banner start======== */
       /* ==============banner end======== */
@@ -419,6 +439,330 @@
       /* ==============banner end======== */
     /* ==============banner start======== */
       /* ==============banner end======== */
+}
+@media(min-width:576px) and (max-width:767.98px){
+    /* ==============nav start======== */
+
+    #navbarSupportedContent {
+        background-color: #000000;
+        text-align: center;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        color: #fff;
+
+    }
+    .navbar .nav-item {
+        width: 25%;
+        margin: 0 auto;
+    }
+    .navbar .banner_btn button{
+        display: none;
+    }
+    /* ==============nav end======== */
+
+
+    /* ==============banner start======== */
+    .banner_heading h1 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    #banner {
+        padding-top: 90px;
+        padding-bottom: 60px;
+
+    }
+    .banner_heading {
+        width: 500px;
+    }
+    .banner_heading p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-top: 0px;
+    }
+    .banner_btn_wrapper {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+        margin: 35px 0;
+    }
+    .banner_img_item{
+        width: 500px;
+    }
+    .banner_btn2 button {
+        font-size: 14px;
+    }
+    .banner_btn {
+        width: 200px;
+    }
+    .banner_btn_wrapper .banner_btn button {
+        font-size: 14px;
+    }
+    .banner_btn button {
+        padding: 16px 48px;
+    }
+    .banner_btn:hover button {
+        padding: 16px 48px;
+    }
+    /* ==============banner end======== */
+
+
+    /* ==============work start======== */
+    #work {
+        margin: 40px 0;
+    }
+    .work_heading {
+        width: 500px;
+        text-align: center;
+    }
+    .work_heading h2 {
+        font-size: 38px;
+        line-height: 57px;
+    }
+    .work_heading p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 10px 0;
+    }
+    .work_heading a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .work_card_contentt {
+        width: 250px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* ==============work end======== */
+
+
+    /* ==============project start======== */
+    #project {
+        margin: 60px 0;
+    }
+    .project_heading_wrapper {
+        margin-bottom: 30px;
+        text-align: center;
+        display: block;
+    }
+    .project_heading h3 {
+        font-size: 38px;
+        line-height: 57px;
+    }
+    .project_content_wrapper {
+        text-align: center;
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .project_pera span {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    /* .project_img {
+        width: 77%;
+        margin-left: 10px;
+    } */
+    .project_content_two{
+        margin-top: 20px;
+    }
+    /* .Project_overlay_img {
+        width: 77%;
+        height: 100%;
+        left: 63px;
+        opacity: 0;
+    } */
+    .Project_overlay_img h4 {
+        margin-top: 71px;
+    }
+    .Project_overlay_img p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 0;
+        margin-bottom: 7px;
+    } 
+    .project_img {
+        width: 100%;
+    }
+    .project_content_one:hover .Project_overlay_img {
+        opacity: 1;
+        width: 400px;
+        height: 285px;
+    }
+    .Project_overlay_img span {
+        margin-right: 0px;
+    }
+    .project_overlay_two h4 {
+        width: 300px;
+        margin-bottom: 0px;
+        margin-top: 102px;
+    }
+    .project_overlay_two span {
+        margin-right: 0px;
+    }
+    /* ==============project end======== */
+
+
+    /* ==============product start======== */
+    #product {
+        margin: 70px 0;
+    }
+    .product_heading span {
+        font-size: 15px;
+        line-height: 22px;;
+    }
+    .product_heading h2 {
+        width: 500px;
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .product_content h4 {
+        margin-top: 10.8px;
+        margin-bottom: 5px;
+    }
+    .product_content p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    #product .product_item .product_content {
+        width: 500px;
+        padding: 30px 32px 0px 48px;
+        text-align: center;
+    }
+    /* ==============product end======== */
+
+
+    /* ==============about start======== */
+    #about {
+        margin: 70px 0;
+    }
+    .about_item h3 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .about_item {
+        width: 500px;
+        text-align: center;
+        padding: 0 60px;
+    }
+    .about_item p {
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 0px;
+    }
+    .about_content {
+        width: 500px;
+    }
+    .about_content p {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* ==============about end======== */
+
+
+    /* ==============banner start======== */
+    #question {
+        margin: 70px 0;
+    }
+    .question_item{
+        padding: 0 80px;
+        text-align: center;
+    }
+    .question_item h3 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .question_item span {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .question_content .accordion-body p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 500px;
+        margin-left: 0 60px;
+        padding-right: 98px;
+    }
+    .faqitemNumber {
+        margin-right: 0px;
+    }
+    .question_content .accordion-body {
+        padding: 0rem;
+    }
+    /* ==============banner end======== */
+
+
+    /* ==============building start======== */
+    .building_content {
+        width: 500px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .building_content_overlay h2 {
+        width: 401px;
+        font-size: 38px;
+        line-height: 57px;
+        margin-bottom: 0px;
+    }
+    .building_content_overlay p {
+        width: 400px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .building_content_overlay {
+        padding: 176px 96px 0px 60px;
+    }
+    .building_form {
+        margin: 0 auto;
+        width: 500px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .building_form h2 {
+        padding: 28px 96px 0 96px;
+    }
+    .building_form p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 0px;
+        padding: 0px 96px 10px 96px;
+    }
+    .building_form input {
+        width: 345px;
+        height: 60px;
+        margin: 0px 112px 16px 78px;
+    }
+    .building_form button {
+        width: 345px;
+        height: 60px;
+        margin: 25px 96px 16px 80px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .building_form a {
+        padding: 0px 100px 48px 100px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+    /* ==============building end======== */
+    /* ==============banner start======== */
+    /* ==============banner end======== */
+    /* ==============banner start======== */
+    /* ==============banner end======== */
+    /* ==============banner start======== */
+    /* ==============banner end======== */
+    /* ==============banner start======== */
+    /* ==============banner end======== */
+    /* ==============banner start======== */
+    /* ==============banner end======== */
+    /* ==============banner start======== */
+    /* ==============banner end======== */
 }
 /* @media(max-width:575.98px){
 
@@ -432,14 +776,11 @@
 /* @media(max-width:575.98px){
 
 } */
-/* @media(max-width:575.98px){
-
-} */
 
 
 
 
-/* ====================about page responsive================== */
+/* =======================================about page responsive================================================== */
 
 
 
@@ -453,27 +794,30 @@
         color: #fff;
     }
     /* ==============nav end======== */
+
+
     /* ==============prblem start======== */
-    .problem_text{
-        /* display: none; */
+    #problem {
+        margin: 60px 0;
     }
-    .problem_img{
-        /* display: none; */
-    }
-    .problem_text span {
-        font-size: 15px;
-        line-height: 24px;
-        font-weight: 400;
+    .problem_text {
+        text-align: center;
     }
     .problem_text h2 {
-        /* width: 595px; */
+        width: 300px;
         font-size: 30px;
         line-height: 45px;
         margin-top: 0px;
         margin-bottom: 6px;
     }
+    .problem_text span {
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+    
     .problem_text p {
-        /* width: 440px; */
+        width: 300px;
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
@@ -484,18 +828,167 @@
     /* ==============problem end======== */
     
     
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
-    /* ==============banner end======== */
+    /* ==============goal start======== */
+    .span_text {
+        padding: 30px 0;
     }
-    /* @media(max-width:575.98px){
+    .goal_heading_one{
+        text-align: center;
+    }
+    .goal_heading_one h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .goal_heading_one p {
+        width: 300px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .span_text span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    /* ==============goal end======== */
+
+
+      /* ==============follow start======== */
+      #follow {
+        margin: 50px 0;
+    }
+    .follow_heading h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .follow_item {
+        margin-top: 0;
+    }
+    .follow_img_line {
+        margin-left: 10px;
+    }
+    .follow_item{
+        text-align: center;
+    }
+    .follow_item h4 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 0px;
+    }
+    .follow_item p {
+        width: 300px;
+        line-height: 21px;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    /* ==============follow end======== */
+
+
+    /* ==============mission start======== */
+    #mission {
+        background-color: #EEF4FA;
+        padding: 50px 0;
+    }
+    .mission_text {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .mission_text span {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        margin-left: -10px;
+    }
+    .mission_text h2 {
+        font-size: 29px;
+        line-height: 44px;
+        margin: 0;
+    }
+    .mission_text p {
+        width: 300px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+    }
+    .mission_img {
+        margin-bottom: 0px;
+    }
+    .mission_img_item {
+        margin-top: 48px;
+        margin-bottom: 16px;
+    }
     
-    } */
+      /* ==============mission end======== */
+
+
+    /* ==============work start======== */
+    #work {
+        margin: 70px 0;
+    }
+    #work .follow_heading h2 {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .work_content {
+        width: 300px;
+        background-color: #F4F6FC;
+        padding: 50px 0px 28px 0px;
+        margin-bottom: 0px;
+        margin-top: 18px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .work_content h4 {
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+    .work_content p {
+        width: 300px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .work_fst_img{
+        margin-bottom: 5px;
+    }
+    .work_item {
+        padding: 25px 60px 20px 60px;
+    }
+      /* ==============work end======== */
+
+
+    /* ==============team start======== */
+    #team {
+        background-color: #F4F6FC;
+        padding: 40px 0;
+    }
+    .team_content {
+        width: 300px;
+        margin-top: 22px;
+    }
+    .team_content h3 {
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+    .team_content span {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+      /* ==============team end======== */
+      /* ==============banner end======== */
+    /* ==============banner start======== */
+      /* ==============banner end======== */
+      /* ==============banner end======== */
+    /* ==============banner start======== */
+      /* ==============banner end======== */
+      /* ==============banner end======== */
+    /* ==============banner start======== */
+      /* ==============banner end======== */
+    }
+    @media(min-width:576px) and (max-width:767.98px){
+    
+    }
     /* @media(max-width:575.98px){
     
     } */

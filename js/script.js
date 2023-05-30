@@ -6,11 +6,11 @@ $(function(){
   $(window).scroll(function(){
     var scrolling = $(this).scrollTop();
     if(scrolling > 200){
-        $(".top_to_bottom").fadeIn(500)
-        $(".top_to_bottom").css({bottom:"50px"})
+        $(".top_to_bottom").fadeIn(50)
+        // $(".top_to_bottom").css({bottom:"10px"})
     }else{
         $(".top_to_bottom").fadeOut(500)
-        $(".top_to_bottom").css({bottom:"100px"})
+        // $(".top_to_bottom").css({bottom:"100px"})
     }
   })
     // top to bottom end

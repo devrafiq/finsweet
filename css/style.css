@@ -34,7 +34,7 @@ font-family: 'Poppins', sans-serif; */
     z-index: 999;
 }
 .nav-item .nav-link{
-    color: #fff;
+    /* color: #fff; */
     font-weight: 500;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -46,9 +46,9 @@ font-family: 'Poppins', sans-serif; */
 .nav-item .nav-link:hover{
     color: #fff;
 }
-.nav_div{
+/* .nav_div{
     margin-right: 50px;
-}
+} */
 .container .banner_btn button{
     font-weight: 500;
     font-size: 16px;
@@ -68,7 +68,7 @@ font-family: 'Poppins', sans-serif; */
    
 }
 .banner_heading{
-    /* width: 578px; */
+    width: 578px;
 }
 .banner_heading h1{
     font-size: 54px;
@@ -92,7 +92,7 @@ font-family: 'Poppins', sans-serif; */
     column-gap: 40px;
 }
 .banner_btn{
-    width: 233px;
+    /* width: 233px; */
 }
 .banner_btn button{
     padding: 16px 56px;
@@ -109,7 +109,7 @@ font-family: 'Poppins', sans-serif; */
     padding: 16px 56px;
     background-color: #FCD980;
     border-radius: 41px;
-    background-color:#FCD980;
+    /* background-color:#FCD980; */
     color: #1B1C2B;
    
 }
@@ -134,7 +134,7 @@ font-family: 'Poppins', sans-serif; */
     column-gap: 140px;
 }
 .work_heading{
-    /* width: 405px; */
+    width: 405px;
 }
 .work_heading h2{
     font-size: 48px;
@@ -164,7 +164,7 @@ font-family: 'Poppins', sans-serif; */
     width: 656px;
 }
 .work_card_contentt{
-    /* width: 326px; */
+    width: 326px;
 }
 .work_card_contentt h4{
     font-size: 32px;
@@ -727,7 +727,7 @@ font-family: 'Poppins', sans-serif; */
     width: 50px;
     height: 50px;
     position: fixed;
-    background-color: red;
+    background-color: #8c7910;
     right: 30px;
     bottom: 30px;
     border-radius: 50%;
@@ -749,21 +749,21 @@ font-family: 'Poppins', sans-serif; */
 /* nav start */
 /* ====================nav start================ */
 
-/* .navbar{
+.navbar{
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     transition: all linear 0.3s;
     background-color: #1C1E53;
-} */
-/* .navbar.fixed_nav{
+}
+.navbar.fixed_nav{
     position: fixed;
     padding: 10px 0;
     background-color: #1C1E53;
     transition: all linear 0.3s;
     z-index: 999;
-} */
+}
 .nav-item .nav-link{
     color: #fff;
     font-weight: 500;
@@ -776,9 +776,6 @@ font-family: 'Poppins', sans-serif; */
 }
 .nav-item .nav-link:hover{
     color: #fff;
-}
-.nav_div{
-    margin-right: 50px;
 }
 .container .banner_btn button{
     font-weight: 500;
@@ -804,7 +801,7 @@ font-family: 'Poppins', sans-serif; */
 }
 .banner_btn:hover button{
     padding: 16px 56px;
-    background-color: #FCD980;
+    /* background-color: #FCD980; */
     border-radius: 41px;
     background-color:#FCD980;
     color: #1B1C2B;
